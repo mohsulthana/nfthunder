@@ -1,4 +1,4 @@
-# hello-world
+# NFThunder
 
 ## Project setup
 ```
