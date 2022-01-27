@@ -96,6 +96,13 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "DIN";
+  src: local("DIN"), url('./assets/fonts/DIN.ttf') format("truetype");
+}
+.v-application {
+  font-family: "DIN" !important;
+}
 .btn {
   padding: 30px !important;
   color: white !important;
