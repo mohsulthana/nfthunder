@@ -1,6 +1,7 @@
 <template>
-<div id="team" class="grey darken-2 py-5">
-  <v-container>
+<div id="team">
+  <div class="grey darken-2 py-5">
+      <v-container>
     <v-row>
       <v-col>
         <h1 class="display-4 text-center font-weight-bold white--text">Team</h1>
@@ -37,6 +38,8 @@
       </v-col>
     </v-row>
   </v-container>
+  </div>
+  <v-img src="@/assets/background-socmed.png" height="300"></v-img>
 </div>
 </template>
 
