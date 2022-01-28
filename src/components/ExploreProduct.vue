@@ -391,8 +391,11 @@ export default {
 
       if (this.searchKey != '' && this.searchKey) {
         filtered = filtered.filter((item) => {
-          return item.name
-            .toUpperCase()
+          return item.name.toUpperCase()
+            .includes(this.searchKey.toUpperCase()) ||
+            item.author.toUpperCase()
+            .includes(this.searchKey.toUpperCase()) ||
+            item.description.toUpperCase()
             .includes(this.searchKey.toUpperCase())
         })
       }
